@@ -33,6 +33,7 @@ class Pause1Component(Component):
     name = _(u'测试1')
     code = 'pause1_node'
     bound_service = Pause1Service
+    embedded_form = True
     form = """
 (function(){
     $.atoms.pause1_node = [

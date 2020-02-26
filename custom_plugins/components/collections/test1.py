@@ -6,7 +6,7 @@ from pipeline.conf import settings
 from pipeline.core.flow.activity import Service, StaticIntervalGenerator
 from pipeline.component_framework.component import Component
 
-__group_name__ = _(u"自定义原子(CUS)")
+__group_name__ = _(u"自定义插件(CUS)")
 
 
 class Pause1Service(Service):

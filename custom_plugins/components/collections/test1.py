@@ -75,7 +75,7 @@ class Pause1Component(Component):
             tag_code: "test_input",
             type: "input",
             attrs: {
-                name: gettext("通天塔"),
+                name: gettext("测试输入框"),
                 placeholder: gettext("可为空"),
                 hookable: true
             },
